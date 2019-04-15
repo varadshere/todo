@@ -1,0 +1,7 @@
+@import "_variables.scss";
+@import "_base.scss";
+
+.done-button {
+    margin-top: 40px;
+    @extend %adp-button;
+}

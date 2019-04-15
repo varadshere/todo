@@ -1,0 +1,6 @@
+@import "_variables.scss";
+@import "_base.scss";
+
+.new-todo-button {
+    @extend %adp-button;
+}

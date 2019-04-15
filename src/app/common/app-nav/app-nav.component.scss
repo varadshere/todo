@@ -1,0 +1,18 @@
+@import "_variables.scss";
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.todo-sidenav {
+    background-color: $dark-green;
+}
+
+.white-divider {
+    background-color: #b6b6b6;
+    opacity: 0.5;
+}
+.sidenav-container {
+    height: 100%;
+}

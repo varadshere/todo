@@ -1,0 +1,9 @@
+<p>Todo ADP VDL Demo</p> 
+<div class="d-flex flex-row-reverse">
+    <button mat-button class="new-todo-button" (click)="newTodo()">NEW TODO ITEM</button>
+</div>
+<div class="d-sm-flex flex-row justify-content-center">
+  <div class="p-2" *ngFor="let activity of activities">
+      <app-activity></app-activity>
+  </div>
+</div>

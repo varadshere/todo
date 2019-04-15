@@ -1,0 +1,14 @@
+<form (ngSubmit)="todoForm.form.valid && onSubmit()" #todoForm="ngForm">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" required>
+    </div>
+
+    <div class="form-group">
+        <label for="content">Content</label>
+        <input type="text" class="form-control" id="content" required>
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+
+</form>

@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  getTodos: 'http://localhost:3000/get-todos/',
+  updateTodo: 'http://localhost:3000/update-todo',
+  insertTodo: 'http://localhost:3000/insert-todo',
 };
 
 /*
